@@ -40,6 +40,9 @@
             <div class="content">
 <<<<<<< HEAD
                 <div class="title">Hector</div>
+=======
+                <div class="title">Exam Site Laravel 5</div>
+>>>>>>> 40d2d2063a272976d42e9b955706ed8a23431922
             </div>
         </div>
     </body>
