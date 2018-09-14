@@ -38,7 +38,6 @@
     <body>
         <div class="container">
             <div class="content">
-<<<<<<< HEAD
                 <div class="title">Hector</div>
 =======
                 <div class="title">Exam Site Laravel 5</div>
