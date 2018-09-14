@@ -38,6 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
+<<<<<<< HEAD
                 <div class="title">Hector</div>
             </div>
         </div>
