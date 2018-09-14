@@ -16,3 +16,9 @@ Route::get('/', function () {
 });
 
 Route::get('/admin', 'AdminController@index');
+Route::get('/admin/students', 'AdminController@showStudents');
+Route::get('/admin/questions', 'AdminController@showQuestions');
+Route::get('/user', 'IndexController@index');
+Route::get('/training', 'IndexController@training');
+Route::get('/exam', 'IndexController@exam');
+Route::get('/reports', 'IndexController@showReports');

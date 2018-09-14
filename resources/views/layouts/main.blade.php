@@ -1,9 +1,5 @@
 @extends('layouts.default')
 
-@section('head')
-   <!-- @parent -->
-   @include('includes.head')
-@endsection
 
 @section('header')
     @include('includes.header')
@@ -29,6 +25,5 @@
     </div>
     <hr>
     @include('includes.footer')
-
 </div>
 @endsection

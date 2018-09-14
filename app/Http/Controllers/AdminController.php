@@ -16,4 +16,10 @@ class AdminController extends Controller
     public function index(){
         return view('admin/index');
     }
+    public function showStudents(){
+        return view('admin/students');
+    }
+    public function showQuestions(){
+        return view('admin/questions');
+    }
 }

@@ -7,13 +7,14 @@
 
 @section('maincontent')
     @parent
+
         <div class="span4">
             <!-- block -->
             <div class="block">
                 <div class="navbar navbar-inner block-header users">
                         <div class="span6">
-                                <div class=" muted pull-left"></div><span class="big">1,234</span>
-                                <div style="color:white">Total Students </div>
+                                <div class=" muted pull-left"></div><span class="big">3.9</span>
+                                <div style="color:white">Average of chemistry</div>
                         </div>
                         <div class="span6">
                                 <i class="fa fa-user-plus pull-right" style="font-size:50px;margin-top:40px;opacity:50%"></i>
@@ -31,8 +32,8 @@
             <div class="block">
                     <div class="navbar navbar-inner block-header questions">
                             <div class="span6">
-                                    <div class=" muted pull-left"></div><span class="big">1,234</span>
-                                    <div style="color:white">Total Questions </div>
+                                    <div class=" muted pull-left"></div><span class="big">4.4</span>
+                                    <div style="color:white">Average of biology</div>
                             </div>
                             <div class="span6">
                                     <i class="fa fa-question-circle-o pull-right" style="font-size:50px;margin-top:40px;opacity:50%"></i>
@@ -51,7 +52,7 @@
             <!-- block -->
             <div class="block">
                 <div class="navbar navbar-inner block-header">
-                    <div class="muted pull-left">Latest Students</div>
+                    <div class="muted pull-left">Latest Reports</div>
                     <div class="pull-right"><span class="badge badge-info">17</span>
 
                     </div>
@@ -60,9 +61,12 @@
                     <table class="table table-striped">
                         <thead>
                             <tr>
-                                <th style="width:20%;">#</th>
-                                <th style="width:40%;"> Name</th>
-                                <th style="width:40%;"> Date </th>
+                                <th style="width:10%;">#</th>
+                                <th style="width:20%;"> Score(out of 5)</th>
+                                <th style="width:20%;"> Time to Complete </th>
+                                <th style="width:25%;"> Start Time </th>
+                                <th style="width:25%;"> Comment </th>
+                                
                             </tr>
                         </thead>
                         <tbody>
@@ -70,16 +74,22 @@
                                 <td>1</td>
                                 <td>Mark Otto</td>
                                 <td>1 hour ago</td>
+                                <td>Mark Otto</td>
+                                <td>1 hour ago</td>
                             </tr>
                             <tr>
                                 <td>2</td>
                                 <td>Jacob Thornton</td>
                                 <td>10 hours ago</td>
+                                <td>Mark Otto</td>
+                                <td>1 hour ago</td>
                             </tr>
                             <tr>
                                 <td>3</td>
                                 <td>Vincent Gabriel</td>
                                 <td>2 days ago</td>
+                                <td>Mark Otto</td>
+                                <td>1 hour ago</td>
                             </tr>
                             
                         </tbody>
@@ -91,6 +101,8 @@
             </div>
             <!-- /block -->
         </div>
+        
+
 @endsection
 
 @section('js')
