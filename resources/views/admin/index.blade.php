@@ -7,12 +7,13 @@
 
 @section('maincontent')
     @parent
+        <div class="span2"></div>
         <div class="span4">
             <!-- block -->
             <div class="block">
                 <div class="navbar navbar-inner block-header users">
                         <div class="span6">
-                                <div class=" muted pull-left"></div><span class="big">1,234</span>
+                                <div class=" muted pull-left"></div><span class="big">1,23  </span>
                                 <div style="color:white">Total Students </div>
                         </div>
                         <div class="span6">
@@ -46,7 +47,9 @@
             <!-- /block -->
         </div>
     </div>
+    <div class="span2"></div>
     <div class="row-fluid">
+
         <div class="span8">
             <!-- block -->
             <div class="block">

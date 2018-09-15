@@ -39,7 +39,7 @@
                                                 <th style="width:10%">No</th>
                                                 <th style="width:10%">Field</th>
                                                 <th style="width:35%">Question</th>
-                                                <th style="width:30%">Amswer</th>
+                                                <th style="width:30%">Answer</th>
                                                 <th style="width:15%">Updated date</th>
                                             </tr>
                                         </thead>

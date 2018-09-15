@@ -16,7 +16,7 @@
                         <!-- block -->
                         <div class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Studens Table</div>
+                                <div class="muted pull-left">Students Table</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
@@ -37,11 +37,11 @@
                                     <table cellpadding="0" cellspacing="0" border="0" class="table table-striped table-bordered" id="example2">
                                         <thead>
                                             <tr>
-                                                <th>Rendering engine</th>
-                                                <th>Browser</th>
-                                                <th>Platform(s)</th>
-                                                <th>Engine version</th>
-                                                <th>CSS grade</th>
+                                                <th width="10%">#</th>
+                                                <th width="25%">Email</th>
+                                                <th width="25%">Name</th>
+                                                <th width="20%">Date</th>
+                                                <th width="20%">Password</th>
                                             </tr>
                                         </thead>
                                         <tbody>
